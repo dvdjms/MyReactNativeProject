@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3d83cd7b-1b30-4513-b1c5-5e409253ee6c"
+      }
+    },
+    "owner": "dvdjms"
   }
 }
