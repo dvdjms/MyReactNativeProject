@@ -1,15 +1,14 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Settings() {
+export default function ChatSCreen() {
 
 
       return (
             <View style={ styles.container }>
-                  <Text style={styles.text}>Settings</Text>
+                  <Text style={styles.text}>Chat</Text>
             </View>
 
       )
-
 
 }
 
@@ -18,11 +17,10 @@ const styles = StyleSheet.create({
             flex: 1,
             // alignItems: 'center',
             // justifyContent: 'space-evenly',
-
             padding: 30,
-            backgroundColor: '#7303a8'
-          },
-          text: {
+            backgroundColor: '#08210c'
+      },
+      text: {
             fontSize: 20,
             fontWeight: 'bold',
             color: 'orange',

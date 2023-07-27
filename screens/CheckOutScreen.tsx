@@ -1,16 +1,15 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Settings() {
+
+export default function CheckOutScreen() {
 
 
       return (
             <View style={ styles.container }>
-                  <Text style={styles.text}>Settings</Text>
+               <Text style={styles.text}>Check Out</Text>
             </View>
 
       )
-
-
 }
 
 const styles = StyleSheet.create({
@@ -18,11 +17,11 @@ const styles = StyleSheet.create({
             flex: 1,
             // alignItems: 'center',
             // justifyContent: 'space-evenly',
-
+            backgroundColor: '#6650f6',
             padding: 30,
-            backgroundColor: '#7303a8'
-          },
-          text: {
+
+      },
+      text: {
             fontSize: 20,
             fontWeight: 'bold',
             color: 'orange',

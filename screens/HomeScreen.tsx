@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, SafeAreaView, ScrollView } from 'react-native';
-import Ionicons from '@expo/vector-icons/Ionicons';
+
 
 export default function HomeScreen() {
 
@@ -8,13 +8,13 @@ export default function HomeScreen() {
 
             <SafeAreaView style={styles.container}>
 
-              <ScrollView showsVerticalScrollIndicator={false}>
-                  <Text style={styles.text}>David</Text>
+              <ScrollView style={styles.scrollview} showsVerticalScrollIndicator={false}>
+                  <Text style={styles.text}>David James</Text>
               </ScrollView>
 
       
-              <ScrollView showsVerticalScrollIndicator={false}>
-                  <Text>fff</Text>
+              <ScrollView style={styles.scrollview} showsVerticalScrollIndicator={false}>
+                  <Text style={styles.text}>Edinburgh</Text>
               </ScrollView>
   
           </SafeAreaView>
@@ -35,5 +35,18 @@ const styles = StyleSheet.create({
         color: 'orange',
         paddingTop: 10,
       },
-
-    })
+      scrollview: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: 'orange',
+        paddingTop: 10,
+        borderColor: 'red',
+        borderWidth: 1,
+        width: 300,
+        marginTop: 15,
+        marginBottom: 15,
+        padding: 15,
+        borderRadius: 7,
+   
+      },
+})
